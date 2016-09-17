@@ -4,8 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --reporter mochawesome && open mochawesome-reports/mochawesome.html"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-sorted": "^0.1.0",
+    "mocha": "^3.0.2",
+    "mochawesome": "^1.5.2",
+    "sinon": "^1.17.5",
+    "sinon-chai": "^2.8.0"
+  }
 }

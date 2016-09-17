@@ -87,3 +87,10 @@ function sortArrayByGender(my_array) {
         return a.gender.value - b.gender.value;
     })
 }
+
+
+module.exports = {
+    sortArrayDefault:sortArrayDefault,
+    sortArrayByAge:sortArrayByAge,
+    sortArrayByGender:sortArrayByGender
+};
